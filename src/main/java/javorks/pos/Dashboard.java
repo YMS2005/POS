@@ -29,11 +29,9 @@ public class Dashboard extends Application {
             primaryStage.setResizable(false);
             primaryStage.show();
         }
-        catch (IOException e) {
+        catch (IOException e)
+        {
             throw new RuntimeException(e);
         }
-
-
-
     }
 }
