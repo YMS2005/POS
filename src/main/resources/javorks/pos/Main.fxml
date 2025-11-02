@@ -33,7 +33,7 @@
                    AnchorPane.leftAnchor="14.0"
                    AnchorPane.topAnchor="14.0">
             <image>
-                <Image url="@../../../java/javorks/pos/Fator.jpeg" />
+                <Image url="@Fator.jpeg" />
             </image>
             <effect>
                 <Blend />
@@ -50,7 +50,7 @@
                    AnchorPane.rightAnchor="14.0"
                    AnchorPane.topAnchor="14.0">
             <image>
-                <Image url="@../../../java/javorks/pos/Profile_Pic.jpg" />
+                <Image url="@Profile_Pic.jpg" />
             </image>
         </ImageView>
 
