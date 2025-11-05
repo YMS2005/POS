@@ -22,9 +22,14 @@ public class Dashboard extends Application {
         Parent root = null;
         try {
             root = FXMLLoader.load(getClass().getResource("Main.fxml"));
+
             // setting the scene and stage
             //Group root = new Group();
             Scene sc = new Scene(root);
+            String CSS = this.getClass().getResource("Project.css").toExternalForm();
+            sc.getStylesheets().add(CSS);
+
+
             primaryStage.setScene(sc);
             primaryStage.setResizable(false);
             primaryStage.show();
