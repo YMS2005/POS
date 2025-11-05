@@ -3,3 +3,29 @@
     -fx-background-color: #C4190F;
     -fx-text-fill: White;
 }
+
+
+.Sales
+{
+    -fx-background-color: #FFE2E6;
+}
+.Sales1
+{
+    -fx-background-color: #FFE2E6;
+    -fx-text-fill: Black;
+}
+.Sales2
+{
+    -fx-background-color: #FFF4DE;
+    -fx-text-fill: Black;
+}
+.Sales3
+{
+    -fx-background-color: #DCFCE7;
+    -fx-text-fill: Black;
+}
+.Sales4
+{
+    -fx-background-color: #F4E8FF;
+    -fx-text-fill: Black;
+}
