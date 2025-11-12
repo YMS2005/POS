@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TreeTableView layoutX="23.0" layoutY="14.0" prefHeight="422.0" prefWidth="803.0" tableMenuButtonVisible="true">
+        <columns>
+          <TreeTableColumn editable="false" prefWidth="75.0" text="Product" />
+            <TreeTableColumn editable="false" prefWidth="76.0" text="Type" />
+          <TreeTableColumn editable="false" prefWidth="96.0" text="Transaction ID" />
+            <TreeTableColumn editable="false" prefWidth="76.0" text="Amount" />
+            <TreeTableColumn editable="false" prefWidth="75.0" text="Date" />
+            <TreeTableColumn editable="false" prefWidth="75.0" text="Status" />
+        </columns>
+         <columnResizePolicy>
+            <TreeTableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TreeTableView>
+      <VBox alignment="CENTER" layoutX="826.0" layoutY="14.0" prefHeight="114.0" prefWidth="160.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Button alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Add Product">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="Remove Product">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin></Button>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

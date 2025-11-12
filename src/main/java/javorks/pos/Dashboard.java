@@ -21,7 +21,7 @@ public class Dashboard extends Application {
         // setting the nodes for the scene
         Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("Main.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml"));
 
             // setting the scene and stage
             //Group root = new Group();
